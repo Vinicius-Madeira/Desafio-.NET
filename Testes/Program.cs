@@ -1,12 +1,25 @@
-﻿// Teste 01: Exibir média do Aluno
+﻿// Teste 02: Exibir média do Aluno recebendo (x) quantidade de Notas
 
-float nota_1, nota_2, media;
+string nomeAluno;
+int qtdProvas;
+float nota, soma, media;
 
-Console.WriteLine("Digite a nota do primeiro semestre:");
-nota_1 = float.Parse(Console.ReadLine());
-Console.WriteLine("Digite a nota do segundo semestre:");
-nota_2 = float.Parse(Console.ReadLine());
+qtdProvas = 0;
+soma = 0;
 
-media = (nota_1 + nota_2) / 2;
+Console.WriteLine("Bem-vindo ao Teste 02, para iniciarmos qual é o seu Nome?");
+nomeAluno = Console.ReadLine();
 
-Console.WriteLine($"Sua média é de {media}");
+while (true)
+{
+	Console.WriteLine($"{nomeAluno} por favor, nos informe qual foi sua nota na prova?");
+	nota = float.Parse(Console.ReadLine());
+	qtdProvas++;
+	soma += nota;
+	media = soma / qtdProvas;
+
+	Console.WriteLine($"Nome: {nomeAluno}");
+	Console.WriteLine($"Quantidade de provas: {qtdProvas}");
+	Console.WriteLine($"Total de Nota:{soma}");
+	Console.WriteLine($"Sua média é de {media}\n");
+}
