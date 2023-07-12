@@ -1,0 +1,15 @@
+C:\Users\Vinicius\source\repos\Testes\bin\Debug\net6.0\Testes.exe
+C:\Users\Vinicius\source\repos\Testes\bin\Debug\net6.0\Testes.deps.json
+C:\Users\Vinicius\source\repos\Testes\bin\Debug\net6.0\Testes.runtimeconfig.json
+C:\Users\Vinicius\source\repos\Testes\bin\Debug\net6.0\Testes.dll
+C:\Users\Vinicius\source\repos\Testes\bin\Debug\net6.0\Testes.pdb
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.csproj.AssemblyReference.cache
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.AssemblyInfoInputs.cache
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.AssemblyInfo.cs
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.csproj.CoreCompileInputs.cache
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.dll
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\refint\Testes.dll
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.pdb
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\Testes.genruntimeconfig.cache
+C:\Users\Vinicius\source\repos\Testes\obj\Debug\net6.0\ref\Testes.dll
