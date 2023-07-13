@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "huxElzpxE45Ab3mTHMulMlQmSDwVHy8S+vtqjJDSwaQHMu7jp3XHHkg6nV9GerzTN45DMAm92DaxqpaKwkI0vw==",
+  "dgSpecHash": "5z9i/F5CfBNUCFb+ASkhh7DYZOY+jxNMmMyiPg6W54E4+dpsmZTC4sdmZszono97M9/97FdZirG7BxaSoFCLgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vinicius\\source\\repos\\TestesWPF\\TestesWPF.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vinicius\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

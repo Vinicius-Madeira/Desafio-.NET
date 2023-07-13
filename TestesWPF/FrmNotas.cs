@@ -8,6 +8,13 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.Design.AxImporter;
+using System.Xml;
+using System.Text.Json;
+using Newtonsoft.Json;
+using Formatting = Newtonsoft.Json.Formatting;
+using System.Text.Json.Serialization;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace TestesWPF
 {
@@ -45,6 +52,7 @@ namespace TestesWPF
                 float nota1 = float.Parse(txtFirstSemester.Text);
                 float nota2 = float.Parse(txtSecondSemester.Text);
                 float media = (nota1 + nota2) / 2;
+                string nome = txtStudentName.Text;
 
                 if (media >= 6.5)
                 {
@@ -56,6 +64,10 @@ namespace TestesWPF
                     labelGradeStatus.Text = "Reprovado";
                     labelGradeStatus.ForeColor = Color.Red;
                 }
+
+                var aluno = new AlunoDTO(nome, nota1, nota2, media, labelGradeStatus.Text);
+                var output = "../../../../output.json"; 
+                JsonFileUtils.WriteJSON(aluno, output);
             }
             else
             {
@@ -72,6 +84,32 @@ namespace TestesWPF
                     labelSecondSemesterError.Visible = true;
                 }
             }
+        }
+    }
+
+    // Simples AlunoDTO para ser convertido em JSON e/ou inserido em um banco de dados.
+    public record class AlunoDTO(
+        string Nome,
+        float Nota1,
+        float Nota2,
+        float Media,
+        string Status);
+   
+                
+    // Classe auxiliar para parsear Objetos em JSON
+    public static class JsonFileUtils
+    {
+        private static readonly JsonSerializerOptions _options =
+            new() { DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull };
+
+        public static void WriteJSON(object obj, string fileName)
+        {
+            var options = new JsonSerializerOptions(_options)
+            {
+                WriteIndented = true
+            };
+            var jsonString = JsonSerializer.Serialize(obj, options);
+            File.AppendAllText(fileName, jsonString+"\n");
         }
     }
 }

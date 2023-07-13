@@ -16,3 +16,5 @@ C:\Users\Vinicius\source\repos\TestesWPF\obj\Debug\net6.0-windows\refint\TestesW
 C:\Users\Vinicius\source\repos\TestesWPF\obj\Debug\net6.0-windows\TestesWPF.pdb
 C:\Users\Vinicius\source\repos\TestesWPF\obj\Debug\net6.0-windows\TestesWPF.genruntimeconfig.cache
 C:\Users\Vinicius\source\repos\TestesWPF\obj\Debug\net6.0-windows\ref\TestesWPF.dll
+C:\Users\Vinicius\source\repos\TestesWPF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Vinicius\source\repos\TestesWPF\obj\Debug\net6.0-windows\TestesWPF.csproj.CopyComplete

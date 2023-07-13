@@ -1,0 +1,49 @@
+{
+  "Nome": "Marcos",
+  "Nota1": 4.5,
+  "Nota2": 5,
+  "Media": 4.75,
+  "Status": "Reprovado"
+}
+{
+  "Nome": "Jo\u00E3o",
+  "Nota1": 7,
+  "Nota2": 7.5,
+  "Media": 7.25,
+  "Status": "Aprovado"
+}
+{
+  "Nome": "Mary",
+  "Nota1": 9,
+  "Nota2": 5,
+  "Media": 7,
+  "Status": "Aprovado"
+}
+{
+  "Nome": "Hugo",
+  "Nota1": 2,
+  "Nota2": 3.3,
+  "Media": 2.65,
+  "Status": "Reprovado"
+}
+{
+  "Nome": "Fernando",
+  "Nota1": 5.3,
+  "Nota2": 8.1,
+  "Media": 6.7000003,
+  "Status": "Aprovado"
+}
+{
+  "Nome": "Cassandra",
+  "Nota1": 1.5,
+  "Nota2": 6,
+  "Media": 3.75,
+  "Status": "Reprovado"
+}
+{
+  "Nome": "Luana",
+  "Nota1": 5,
+  "Nota2": 7.7,
+  "Media": 6.35,
+  "Status": "Reprovado"
+}

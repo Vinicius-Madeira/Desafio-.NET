@@ -7,11 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testes", "Testes.csproj", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestesWPF", "..\TestesWPF\TestesWPF.csproj", "{164DA339-3628-4B60-81C9-6C08916D36AB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste06", "Teste06", "{F959FF72-087A-4798-85FF-37F36BECAC9C}"
-	ProjectSection(SolutionItems) = preProject
-		TextFile2.txt = TextFile2.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
