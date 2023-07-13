@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestesWPF": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Vinicius\\source\\repos\\TestesWPF\\bin\\Debug\\net6.0-windows\\TestesWPF.exe"
+    }
+  }
+}
